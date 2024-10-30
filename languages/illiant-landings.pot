@@ -1,0 +1,544 @@
+# Copyright (C) 2024 illiant.ai
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLandings 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/illiant-landings\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-15T08:53:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: illiant-landings\n"
+
+#. Plugin Name of the plugin
+#: illiant-landings.php
+msgid "WPLandings"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: illiant-landings.php
+msgid "https://illiant.ai"
+msgstr ""
+
+#. Description of the plugin
+#: illiant-landings.php
+msgid "Effortlessly convert Figma designs into WordPress landing pages using AI technology with WPLandings Plugin. Perfect for PPC teams that want to reduce both cost and time to production."
+msgstr ""
+
+#. Author of the plugin
+#: illiant-landings.php
+msgid "illiant.ai"
+msgstr ""
+
+#: inc/Api/Callbacks/CptCallbacks.php:37
+msgid "Header Option:"
+msgstr ""
+
+#: inc/Api/Callbacks/CptCallbacks.php:47
+msgid "Footer Option:"
+msgstr ""
+
+#: inc/Api/Callbacks/CptCallbacks.php:57
+msgid "Custom CSS:"
+msgstr ""
+
+#: inc/Api/Callbacks/CreateLandingPageCallbacks.php:60
+#: inc/Base/CptController.php:152
+msgid "Nonce verification failed!"
+msgstr ""
+
+#: inc/Api/Callbacks/CreateLandingPageCallbacks.php:64
+#: inc/Base/CptController.php:165
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/Api/Callbacks/CreateLandingPageCallbacks.php:159
+msgid "Landing page creation failed."
+msgstr ""
+
+#: inc/Api/Callbacks/SettingsCallbacks.php:36
+msgid "To convert landing pages from Figma, a Figma Access Token is required."
+msgstr ""
+
+#: inc/Api/Callbacks/SettingsCallbacks.php:36
+msgid "Beyond the initial 100 free credits, an OpenAI API key or an account upgrade is required."
+msgstr ""
+
+#: inc/Base/CptController.php:63
+msgctxt "post type general name"
+msgid "Landing Pages"
+msgstr ""
+
+#: inc/Base/CptController.php:64
+msgctxt "post type singular name"
+msgid "Landing Page"
+msgstr ""
+
+#: inc/Base/CptController.php:65
+msgctxt "admin menu"
+msgid "Landing Pages"
+msgstr ""
+
+#: inc/Base/CptController.php:66
+msgctxt "add new on admin bar"
+msgid "Landing Page"
+msgstr ""
+
+#: inc/Base/CptController.php:67
+msgctxt "landing page"
+msgid "Convert landing page"
+msgstr ""
+
+#: inc/Base/CptController.php:68
+msgid "Add New Landing Page"
+msgstr ""
+
+#: inc/Base/CptController.php:69
+msgid "New Landing Page"
+msgstr ""
+
+#: inc/Base/CptController.php:70
+#: views/createLanding.php:102
+msgid "Edit Landing Page"
+msgstr ""
+
+#: inc/Base/CptController.php:71
+msgid "View Landing Page"
+msgstr ""
+
+#: inc/Base/CptController.php:72
+msgid "All Landing Pages"
+msgstr ""
+
+#: inc/Base/CptController.php:73
+msgid "Search Landing Pages"
+msgstr ""
+
+#: inc/Base/CptController.php:74
+msgid "Parent Landing Pages:"
+msgstr ""
+
+#: inc/Base/CptController.php:75
+msgid "No landing pages found."
+msgstr ""
+
+#: inc/Base/CptController.php:76
+msgid "No landing pages found in Trash."
+msgstr ""
+
+#: inc/Base/CptController.php:130
+msgid "Landing Page Options"
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:135
+msgid "Unauthorized: You do not have permission to upload files."
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:142
+msgid "Nonce verification failed"
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:148
+msgid "No images provided or invalid structure."
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:179
+msgid "Invalid image URL: "
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:185
+msgid "Failed to download image:"
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:213
+msgid "Unrecognized image MIME type: "
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:232
+msgid "Error sideloading image: "
+msgstr ""
+
+#: inc/Base/CreateLandingPageController.php:243
+msgid "Image uploaded:"
+msgstr ""
+
+#: views/createLanding.php:67
+#: views/createLanding.php:152
+msgid "Convert Landing Page"
+msgstr ""
+
+#: views/createLanding.php:75
+msgid "Start your 30-day free trial today and get additional credits."
+msgstr ""
+
+#: views/createLanding.php:77
+msgid "Start Free Trial!"
+msgstr ""
+
+#: views/createLanding.php:101
+msgid "Import design"
+msgstr ""
+
+#: views/createLanding.php:103
+msgid "Preview"
+msgstr ""
+
+#: views/createLanding.php:110
+msgid "Import your Figma design"
+msgstr ""
+
+#: views/createLanding.php:111
+msgid "First, import your Figma design. Once you have verified that it has been successfully imported, you can convert it into a Landing Page."
+msgstr ""
+
+#: views/createLanding.php:134
+msgid "Landing page design URL"
+msgstr ""
+
+#: views/createLanding.php:135
+msgid "Paste your Figma URL here"
+msgstr ""
+
+#: views/createLanding.php:136
+msgid "Set up your key to import Figma design"
+msgstr ""
+
+#: views/createLanding.php:137
+msgid "Import Figma design"
+msgstr ""
+
+#: views/createLanding.php:145
+msgid "Imported sections"
+msgstr ""
+
+#: views/createLanding.php:167
+msgid "Save Edited Code"
+msgstr ""
+
+#: views/createLanding.php:168
+msgid "We edit your landing page for free"
+msgstr ""
+
+#: views/createLanding.php:175
+msgid "Select Section"
+msgstr ""
+
+#: views/createLanding.php:179
+msgid "Describe the changes you want to apply"
+msgstr ""
+
+#: views/createLanding.php:192
+msgid "Decline changes"
+msgstr ""
+
+#: views/createLanding.php:193
+msgid "Accept changes"
+msgstr ""
+
+#: views/createLanding.php:238
+msgid "Reset"
+msgstr ""
+
+#: views/createLanding.php:239
+msgid "Save"
+msgstr ""
+
+#: views/createLanding.php:240
+msgid "Save and Publish"
+msgstr ""
+
+#: src/js/messages/messages.js:5
+#: assets/illiantscripts.min.js:180
+msgid "OpenAI API key"
+msgstr ""
+
+#: src/js/messages/messages.js:6
+#: assets/illiantscripts.min.js:181
+msgid "Figma token key"
+msgstr ""
+
+#: src/js/messages/messages.js:9
+#: assets/illiantscripts.min.js:184
+msgid "We have detected that the <strong>Figma access token is missing</strong>."
+msgstr ""
+
+#: src/js/messages/messages.js:10
+#: src/js/messages/messages.js:90
+#: assets/illiantscripts.min.js:185
+#: assets/illiantscripts.min.js:265
+msgid "You have exhausted your credits. To continue, please <strong>use your OpenAI API key</strong> or <strong>upgrade your account for additional credits</strong>."
+msgstr ""
+
+#: src/js/messages/messages.js:11
+#: assets/illiantscripts.min.js:186
+msgid "You have no remaining monthly credits in your plan. Please consider <strong>Upgrading to a larger plan</strong> or <strong>Contact us</strong> for assistance."
+msgstr ""
+
+#: src/js/messages/messages.js:12
+#: assets/illiantscripts.min.js:187
+msgid "Make sure to read the documentation on <strong>how to prepare your Figma design</strong> before importing it."
+msgstr ""
+
+#: src/js/messages/messages.js:13
+#: assets/illiantscripts.min.js:188
+msgid "Error fetching data from Figma: "
+msgstr ""
+
+#: src/js/messages/messages.js:14
+#: assets/illiantscripts.min.js:189
+msgid "Error importing your design. <strong>Try again</strong> or <strong>contact support</strong>."
+msgstr ""
+
+#: src/js/messages/messages.js:15
+#: assets/illiantscripts.min.js:190
+msgid "Error exporting images from Figma: "
+msgstr ""
+
+#: src/js/messages/messages.js:16
+#: assets/illiantscripts.min.js:191
+msgid "Error processing images: "
+msgstr ""
+
+#: src/js/messages/messages.js:17
+#: assets/illiantscripts.min.js:192
+msgid "Error uploading images to WordPress. Error message: "
+msgstr ""
+
+#: src/js/messages/messages.js:18
+#: assets/illiantscripts.min.js:193
+msgid "Error uploading images to WordPress. <strong>Try again</strong> or <strong>contact support</strong>."
+msgstr ""
+
+#: src/js/messages/messages.js:19
+#: assets/illiantscripts.min.js:194
+msgid "We have detected a <strong>mismatch in the number of sections</strong> between DESKTOP and MOBILE.<br> Ensure your design is imported correctly to avoid unexpected results."
+msgstr ""
+
+#: src/js/messages/messages.js:20
+#: assets/illiantscripts.min.js:195
+msgid "Error converting your Landing Page: "
+msgstr ""
+
+#: src/js/messages/messages.js:21
+#: assets/illiantscripts.min.js:196
+msgid "Error editing section: "
+msgstr ""
+
+#: src/js/messages/messages.js:22
+#: assets/illiantscripts.min.js:197
+msgid "Error converting your Landing Page. <strong>Try again</strong> or <strong>contact support</strong>."
+msgstr ""
+
+#: src/js/messages/messages.js:23
+#: assets/illiantscripts.min.js:198
+msgid "Error editing section. <strong>Try again</strong> or <strong>contact support</strong>."
+msgstr ""
+
+#: src/js/messages/messages.js:24
+#: assets/illiantscripts.min.js:199
+msgid "<strong>Your Landing Page has been converted!</strong><br>If there are differences with the imported design, you <strong>can edit your Landing Page with AI or with code</strong>.<br><br>If you need help editing your Landing Page, <strong>we can assist you at no cost!</strong> <a>Contact Support</a>"
+msgstr ""
+
+#: src/js/messages/messages.js:25
+#: assets/illiantscripts.min.js:200
+msgid "The following fonts are not available in Google Fonts: <strong>"
+msgstr ""
+
+#: src/js/messages/messages.js:26
+#: assets/illiantscripts.min.js:201
+msgid "</strong> <br> This preview only visualizes Google Fonts, but don't worry! Once you publish the landing page, these fonts will be applied, provided they are installed in your theme."
+msgstr ""
+
+#: src/js/messages/messages.js:30
+#: assets/illiantscripts.min.js:205
+msgid "Go to Settings to setup your key"
+msgstr ""
+
+#: src/js/messages/messages.js:34
+#: assets/illiantscripts.min.js:209
+msgid "Start your free trial"
+msgstr ""
+
+#: src/js/messages/messages.js:38
+#: assets/illiantscripts.min.js:213
+msgid "Upgrade your account"
+msgstr ""
+
+#: src/js/messages/messages.js:42
+#: assets/illiantscripts.min.js:217
+msgid "Contact Support"
+msgstr ""
+
+#: src/js/messages/messages.js:43
+#: assets/illiantscripts.min.js:218
+msgid "https://wordpress.org/support/plugin/illiant-landings/"
+msgstr ""
+
+#: src/js/messages/messages.js:47
+#: assets/illiantscripts.min.js:222
+msgid "Go to Documentation"
+msgstr ""
+
+#: src/js/messages/messages.js:48
+#: assets/illiantscripts.min.js:223
+msgid "admin.php?page=illiant_wplandings_doc#d-2"
+msgstr ""
+
+#: src/js/messages/messages.js:49
+#: assets/illiantscripts.min.js:224
+msgid "How we handle fonts"
+msgstr ""
+
+#: src/js/messages/messages.js:50
+#: assets/illiantscripts.min.js:225
+msgid "admin.php?page=illiant_wplandings_doc#d-5"
+msgstr ""
+
+#: src/js/messages/messages.js:51
+#: assets/illiantscripts.min.js:226
+msgid "How to edit your Landing Page"
+msgstr ""
+
+#: src/js/messages/messages.js:55
+#: assets/illiantscripts.min.js:230
+msgid "Go to FAQ"
+msgstr ""
+
+#: src/js/messages/messages.js:57
+#: src/js/messages/messages.js:59
+#: src/js/messages/messages.js:61
+#: assets/illiantscripts.min.js:232
+#: assets/illiantscripts.min.js:234
+#: assets/illiantscripts.min.js:236
+msgid "What this error means"
+msgstr ""
+
+#: src/js/messages/messages.js:67
+#: src/js/messages/messages.js:93
+#: assets/illiantscripts.min.js:242
+#: assets/illiantscripts.min.js:268
+msgid "Confirm Reset"
+msgstr ""
+
+#: src/js/messages/messages.js:68
+#: src/js/messages/messages.js:94
+#: assets/illiantscripts.min.js:243
+#: assets/illiantscripts.min.js:269
+msgid "Confirm Import"
+msgstr ""
+
+#: src/js/messages/messages.js:69
+#: assets/illiantscripts.min.js:244
+msgid "Invalid URL"
+msgstr ""
+
+#: src/js/messages/messages.js:70
+#: src/js/messages/messages.js:95
+#: assets/illiantscripts.min.js:245
+#: assets/illiantscripts.min.js:270
+msgid "Confirm Conversion"
+msgstr ""
+
+#: src/js/messages/messages.js:71
+#: assets/illiantscripts.min.js:246
+msgid "Upgrade your Account"
+msgstr ""
+
+#: src/js/messages/messages.js:72
+#: assets/illiantscripts.min.js:247
+msgid "Review this warnings before confirm"
+msgstr ""
+
+#: src/js/messages/messages.js:73
+#: assets/illiantscripts.min.js:248
+msgid "Update WPLandings Plugin"
+msgstr ""
+
+#: src/js/messages/messages.js:74
+#: assets/illiantscripts.min.js:249
+msgid "You have reached the free AI credits limit"
+msgstr ""
+
+#: src/js/messages/messages.js:77
+#: assets/illiantscripts.min.js:252
+msgid "Are you sure you want to reset the current Landing Page? This action cannot be undone."
+msgstr ""
+
+#: src/js/messages/messages.js:78
+#: assets/illiantscripts.min.js:253
+msgid "You already have an imported Landing Page. Importing a new design will overwrite it."
+msgstr ""
+
+#: src/js/messages/messages.js:79
+#: assets/illiantscripts.min.js:254
+msgid "You already have mobile sections. Importing a new design will replace them."
+msgstr ""
+
+#: src/js/messages/messages.js:80
+#: assets/illiantscripts.min.js:255
+msgid "Please enter a valid Figma file URL."
+msgstr ""
+
+#: src/js/messages/messages.js:81
+#: assets/illiantscripts.min.js:256
+msgid "This process may take up to 1 or 2 minutes, depending on the number of sections in your design.<br><br>"
+msgstr ""
+
+#: src/js/messages/messages.js:82
+#: assets/illiantscripts.min.js:257
+msgid "- Your design contains an unusual number of sections. Ensure your Figma design has been correctly imported to avoid unexpected results.<br>"
+msgstr ""
+
+#: src/js/messages/messages.js:83
+#: assets/illiantscripts.min.js:258
+msgid "- Your design contains an unusual number of images. Ensure your Figma design has been correctly imported to avoid unexpected results.<br>"
+msgstr ""
+
+#: src/js/messages/messages.js:84
+#: assets/illiantscripts.min.js:259
+msgid "This process may take up to 1 or 2 minutes, depending on the number of sections and images in your design.<br><br>"
+msgstr ""
+
+#: src/js/messages/messages.js:85
+#: assets/illiantscripts.min.js:260
+msgid "To access the One-Click Publish feature, you need to upgrade your account. Start your 30-day free trial now - no commitment for 30 days, cancel anytime!"
+msgstr ""
+
+#: src/js/messages/messages.js:86
+#: assets/illiantscripts.min.js:261
+msgid "You can enjoy premium features by updating your WPLandings plugin. Follow the instructions."
+msgstr ""
+
+#: src/js/messages/messages.js:87
+#: assets/illiantscripts.min.js:262
+msgid "You've hit the free import limit. To continue, please set up an OpenAI API key."
+msgstr ""
+
+#: src/js/messages/messages.js:88
+#: assets/illiantscripts.min.js:263
+msgid "You've hit the free convert limit. To continue, please set up an OpenAI API key."
+msgstr ""
+
+#: src/js/messages/messages.js:89
+#: assets/illiantscripts.min.js:264
+msgid "You've hit the free edit limit. To continue, please set up an OpenAI API key."
+msgstr ""
+
+#: src/js/messages/messages.js:96
+#: assets/illiantscripts.min.js:271
+msgid "Yes, confirm Conversion"
+msgstr ""
+
+#: src/js/messages/messages.js:97
+#: assets/illiantscripts.min.js:272
+msgid "Save and Upgrade"
+msgstr ""
+
+#: src/js/messages/messages.js:98
+#: assets/illiantscripts.min.js:273
+msgid "Get an OpenAI API key"
+msgstr ""

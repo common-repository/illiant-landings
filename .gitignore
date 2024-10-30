@@ -1,0 +1,47 @@
+# OS X
+.DS_Store*
+._*
+
+node_modules/ 
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+**/node_modules
+*.log
+*.gz
+
+# src
+**/src
+
+gulpfile.mjs
+composer.json
+composer.lock
+package-lock.json
+package.json
+
+assets/*.map 
+
+
+# IntelliJ
+.idea/*
+
+# Coveralls
+coverage
+
+# nodenv local file
+.node-version
+
+# build
+dist
+build/**
+
+.env
+
